@@ -16,7 +16,8 @@ only Google account it handles is the owner's own.</p>
 <h2>What Hobbs accesses</h2>
 <p>When the owner asks, Hobbs reads and searches email in the owner's Gmail account, saves drafts
 adds or removes the owner's labels, moves labelled email out of the inbox, and moves email the owner
-chooses to Trash. It does not send email or delete it permanently.</p>
+chooses to Trash. It does not send email or delete it permanently. Before drafting to someone, it reads
+the owner's own recent emails to that person, so the draft matches how the owner writes.</p>
 <p>When the owner asks, Hobbs also reads events in the owner's main Google Calendar, including the
 names, email addresses and replies of the people on them, books events,
 changes or deletes events it made, and changes the colour of events. After the owner approves each
@@ -29,6 +30,8 @@ approves each batch, Hobbs saves attachments from their email into a folder of i
 <h2>Where the data goes</h2>
 <p>The Google sign-in tokens, Hobbs's conversation log and its list of the owner's open decisions,
 which can include details from email, calendar or documents, are stored on the owner's home computer.
+So is a copy of the owner's own words from their sent email, used to write a guide to their writing
+style. The guide is a document in the owner's Google Drive, which the owner edits.
 To answer a request, the email, calendar or document content involved is sent to Anthropic's Claude service
 under the owner's own Claude account. This content is not sold, used for advertising or shared with
 anyone else.</p>
